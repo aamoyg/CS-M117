@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/soundchoosepiano"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="120dp"
+        android:text="@string/piano" />
+
+    <Button
+        android:id="@+id/soundchoosedrums"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="117dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/drums" />
+
+    <Button
+        android:id="@+id/soundchoosemisc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="123dp"
+        android:layout_marginTop="100dp"
+        android:text="@string/misc" />
+
+    <Button
+        android:id="@+id/closesounddialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cancel"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="150dp"
+        android:textSize="15dp" />
+
+</RelativeLayout>

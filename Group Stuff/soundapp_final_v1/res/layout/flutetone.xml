@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white" >
+
+    <ImageView
+        android:contentDescription="@string/desc"
+		android:id="@+id/flutebackground"
+        android:background="@color/white"
+        android:layout_width="330dp"
+        android:layout_height="460dp"
+        android:scaleType="fitXY"
+        android:screenOrientation="portrait"
+        android:src="@drawable/flute_new" >
+    </ImageView>
+    
+    <Button
+        android:id="@+id/flutec2key"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="212dp"
+        android:background="@android:color/transparent"
+        android:text="@string/fluteC2"
+        android:textColor="@color/blue" />
+    
+    <Button
+        android:id="@+id/flutebkey"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="154dp"
+        android:layout_marginTop="233dp"
+        android:background="@android:color/transparent"
+        android:text="@string/fluteB"
+        android:textColor="@color/blue" />
+    
+    <Button
+        android:id="@+id/fluteakey"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="167dp"
+        android:layout_marginTop="254dp"
+        android:background="@android:color/transparent"
+        android:text="@string/fluteA"
+        android:textColor="@color/blue" />
+    
+    <Button
+        android:id="@+id/flutegkey"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="182dp"
+        android:layout_marginTop="275dp"
+        android:background="@android:color/transparent"
+        android:text="@string/fluteG"
+        android:textColor="@color/blue" />
+    
+    <Button
+        android:id="@+id/flutefkey"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="195dp"
+        android:layout_marginTop="296dp"
+        android:background="@android:color/transparent"
+        android:text="@string/fluteF"
+        android:textColor="@color/blue" />
+    
+    <Button
+        android:id="@+id/fluteekey"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="317dp"
+        android:background="@android:color/transparent"
+        android:text="@string/fluteE"
+        android:textColor="@color/blue" />
+    
+    <Button
+        android:id="@+id/flutedkey"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="225dp"
+        android:layout_marginTop="338dp"
+        android:background="@android:color/transparent"
+        android:text="@string/fluteD"
+        android:textColor="@color/blue" />
+    
+    <Button
+        android:id="@+id/fluteckey"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="237dp"
+        android:layout_marginTop="362dp"
+        android:background="@android:color/transparent"
+        android:text="@string/fluteC"
+        android:textColor="@color/blue" />
+    
+
+</RelativeLayout>

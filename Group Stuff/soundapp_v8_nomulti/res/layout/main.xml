@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@android:color/white" >
+		<ImageView
+			android:src="@drawable/musicpattern"
+			android:scaleType="fitXY"
+			android:paddingLeft="0dp"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:id="@+id/backgroundImageView">
+		</ImageView>
+		<LinearLayout 
+		    android:layout_width="fill_parent"
+		    android:paddingLeft="80dp"
+		    android:paddingRight="80dp"
+		    android:layout_height="fill_parent"
+		    android:gravity="center_vertical"
+		    android:orientation="vertical"
+		    android:layout_centerInParent="true"
+		    >
+
+		    <Button
+			    android:layout_marginBottom="3dp"
+			    android:id="@+id/multiplayer"
+			    style="@style/buttonText"
+			    android:text="@string/multiplayer"
+			    android:textColor="@android:color/black"
+			    android:background="@drawable/whitebuttonstates"/>
+		    
+			<Button
+			    android:layout_marginBottom="3dp"
+			    android:id="@+id/soloplay"
+			    style="@style/buttonText"
+			    android:text="@string/soloplay"
+			    android:textColor="@android:color/black"
+			    android:background="@drawable/whitebuttonstates"/>
+
+			<Button
+			    android:layout_marginBottom="3dp"
+			    android:id="@+id/instrumentlist"
+			    style="@style/buttonText"
+			    android:text="@string/instrumentlist" 
+			    android:textColor="@android:color/black"
+			    android:paddingBottom="5dp"
+			    android:background="@drawable/whitebuttonstates"/>
+
+			<Button
+			    android:layout_marginBottom="3dp"
+			    android:id="@+id/about"
+			    style="@style/buttonText"
+			    android:onClick="about_Click"
+			    android:text="@string/about" 
+			    android:textColor="@android:color/black"
+			    android:background="@drawable/whitebuttonstates"/>
+			
+			<Button
+			    android:layout_marginBottom="3dp"
+			    android:id="@+id/exit"
+			    style="@style/buttonText"
+			    android:onClick="exit_Click"
+			    android:text="@string/exit" 
+			    android:textColor="@android:color/black"
+			    android:background="@drawable/whitebuttonstates"/>
+	        
+        </LinearLayout>
+
+	</RelativeLayout>

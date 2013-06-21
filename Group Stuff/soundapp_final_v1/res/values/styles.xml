@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="buttonText">
+    	<item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">70dp</item>
+        <!-- <item name="android:layout_weight">1</item> -->
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+    <style name="buttonText1">
+    	<item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="buttonText2">
+    	<item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+    <style name="pianokeysnormal">
+    	<item name="android:layout_width">115dp</item>
+        <item name="android:layout_height">65dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="pianokeysharp">
+    	<item name="android:layout_width">210dp</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="styleName">
+        <item name="android:background">@string/C</item>
+    </style>
+    <style name="flutekey"></style>
+            <style name="guitarkeysnormal">
+    	<item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">35dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="guitarkeysharp">
+    	<item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">5sp</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+</resources>

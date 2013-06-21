@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white" >
+
+    <ImageView
+        android:id="@+id/drumsetbackground"
+        android:layout_width="320dp"
+        android:layout_height="460dp"
+        android:background="@color/white"
+        android:paddingTop="25dp"
+        android:screenOrientation="portrait"
+        android:src="@drawable/drumsplacement" >
+    </ImageView>
+
+
+    <Button
+        android:id="@+id/drums_sn_key"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="157dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"
+        android:background="@android:color/transparent"
+        android:text="   SN   " />
+
+
+    <Button
+        android:id="@+id/drums_hhopen_key"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="170dp"
+        android:textColor="@color/black"
+        android:background="@android:color/transparent"
+        android:text="HH-OPEN" />
+    
+    <Button
+        android:id="@+id/drums_crash_key"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/drums_hhcl_key"
+        android:layout_marginTop="135dp"
+        android:background="@android:color/transparent"
+        android:text="CRASH"
+        android:textColor="@color/black" />
+    
+    <Button
+        android:id="@+id/drums_rim_key"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="170dp"
+        android:layout_marginLeft="185dp"
+        android:textColor="@color/black"
+        android:background="@android:color/transparent"
+        android:text="  RIM  " />
+
+    <Button
+        android:id="@+id/drums_ride_key"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="225dp"
+        android:layout_marginLeft="240dp"
+        android:textColor="@color/black"
+        android:background="@android:color/transparent"
+        android:text="  RIDE  " />
+    
+    <Button
+        android:id="@+id/drums_fl_key"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="185dp"
+        android:layout_marginLeft="118dp"
+        android:background="@android:color/transparent"
+        android:textColor="@color/black"
+        android:text="    FL   " />
+    
+    <Button
+        android:id="@+id/drums_rk1_key"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="245dp"
+        android:layout_marginLeft="65dp"
+        android:textColor="@color/white"
+        android:background="@android:color/transparent"
+        android:text="    RK1  " />
+    
+    <Button
+        android:id="@+id/drums_rk3_key"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="275dp"
+        android:layout_marginLeft="155dp"
+        android:textColor="@color/black"
+        android:background="@android:color/transparent"
+        android:text="   RK3  " />
+    
+    <Button
+        android:id="@+id/drums_hhcl_key"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="245dp"
+        android:textColor="@color/black"
+        android:background="@android:color/transparent"
+        android:text="HH-CL" />
+    
+    <Button
+        android:id="@+id/drums_hhped_key"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="345dp"
+        android:layout_marginLeft="170dp"
+        android:textColor="@color/black"
+        android:background="@android:color/transparent"
+        android:text="HH-PED" />
+    
+    <Button
+        android:id="@+id/drums_kik_key"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="145dp"
+        android:layout_marginTop="225dp"
+        android:background="@android:color/transparent"
+        android:text="  Kik  "
+        android:textColor="@color/black" />
+
+</RelativeLayout>

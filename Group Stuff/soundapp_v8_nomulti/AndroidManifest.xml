@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rhysyu.soundapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+    <uses-sdk android:minSdkVersion="1" 
+          android:targetSdkVersion="17"
+          android:maxSdkVersion="17" />
+	<uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    
+    <application
+        android:icon="@drawable/musicnote"
+        android:label="@string/app_name" >
+        
+    	<activity
+            android:name=".SplashActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+           	android:name=".SoundappActivity"
+           	android:configChanges="orientation"
+    		android:screenOrientation="portrait"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+           	android:name=".drumsActivity"
+           	android:configChanges="orientation"
+    		android:screenOrientation="portrait"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+           	android:name=".guitarActivity"
+           	android:configChanges="orientation"
+    		android:screenOrientation="portrait"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+           	android:name=".instrumentslistActivity"
+           	android:configChanges="orientation"
+    		android:screenOrientation="portrait"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+           	android:name=".miscActivity"
+           	android:configChanges="orientation"
+    		android:screenOrientation="portrait"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+           	android:name=".pianoActivity"
+           	android:configChanges="orientation"
+    		android:screenOrientation="portrait"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+           	android:name=".fluteActivity"
+           	android:configChanges="orientation"
+    		android:screenOrientation="portrait"
+            android:label="@string/app_name">
+        </activity>
+        
+       <activity
+           	android:name=".soloplayActivity"
+           	android:configChanges="orientation"
+    		android:screenOrientation="portrait"
+            android:label="@string/app_name">
+        </activity>
+        
+       <activity
+            android:name=".AndroidBuildingMusicPlayerActivity"
+            android:configChanges="orientation"
+    		android:screenOrientation="portrait"
+            android:label="@string/app_name">
+        </activity>
+        
+        <activity
+            android:name=".PlayListActivity"
+            android:configChanges="orientation"
+    		android:screenOrientation="portrait"
+            android:label="@string/app_name">
+        </activity>
+        
+        <activity 
+            android:name=".BluetoothChat"
+            android:label="@string/app_name"
+            android:configChanges="orientation"
+    	    android:screenOrientation="portrait"
+            >
+        </activity>
+        
+        <activity 
+            android:name=".DeviceListActivity"
+            android:label="@string/select_device"
+            android:theme="@android:style/Theme.Dialog"
+            android:configChanges="orientation"
+    		android:screenOrientation="portrait"
+            >
+        </activity> 
+        
+    </application>
+
+</manifest>

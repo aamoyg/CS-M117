@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white" >
+
+    <!--         android:src="@drawable/guitar" > -->
+    
+    <ImageView
+        android:id="@+id/guitarstringsbackground"
+        android:layout_width="330dp"
+        android:layout_height="460dp"
+        android:background="@color/white"
+        android:paddingBottom="50dp"
+        android:scaleType="fitXY" 
+        android:src="@drawable/guitar">
+
+    </ImageView>
+
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+     >
+
+    <Button
+        android:id="@+id/guitarC2key"
+        style="@style/guitarkeysnormal"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="1dp"
+        android:text="@string/C" />
+
+    <Button
+        android:id="@+id/guitarBkey"
+        style="@style/guitarkeysnormal"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="53dp"
+        android:text="@string/B" />
+
+    <Button
+        android:id="@+id/guitarAkey"
+        style="@style/guitarkeysnormal"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="105dp"
+        android:text="@string/A" />
+
+    <Button
+        android:id="@+id/guitarGkey"
+        style="@style/guitarkeysnormal"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="155dp"
+        android:text="@string/G" />
+
+    <Button
+        android:id="@+id/guitarFkey"
+        style="@style/guitarkeysnormal"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="210dp"
+        android:text="@string/F" />
+
+    <Button
+        android:id="@+id/guitarEkey"
+        style="@style/guitarkeysnormal"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="260dp"
+        android:text="@string/E" />
+
+    <Button
+        android:id="@+id/guitarDkey"
+        style="@style/guitarkeysnormal"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="312dp"
+        android:text="@string/D" />
+
+    <Button
+        android:id="@+id/guitarFsharpkey"
+        style="@style/guitarkeysharp"
+        android:layout_marginLeft="168dp"
+        android:layout_marginTop="172dp"
+        android:text="@string/Fsharp" />
+
+    <Button
+        android:id="@+id/guitarDsharpkey"
+        style="@style/guitarkeysharp"
+  		android:layout_marginLeft="168dp"
+        android:layout_marginTop="275dp"
+        android:text="@string/Dsharp"  />
+
+    <Button
+        android:id="@+id/guitarCsharpkey"
+        style="@style/guitarkeysharp"
+  		android:layout_marginLeft="168dp"
+        android:layout_marginTop="327dp"
+        android:text="@string/Csharp"  />
+
+    <Button
+        android:id="@+id/guitarAsharpkey"
+        style="@style/guitarkeysharp"
+   		android:layout_marginLeft="168dp"
+        android:layout_marginTop="70dp"
+        android:text="@string/Asharp"  />
+
+    <Button
+        android:id="@+id/guitarCkey"
+        style="@style/guitarkeysnormal"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="364dp"
+        android:text="@string/C" />
+
+    <Button
+        android:id="@+id/guitarGsharpkey"
+        style="@style/guitarkeysharp"
+  		android:layout_marginLeft="168dp"
+        android:layout_marginTop="120dp"
+        android:text="@string/Gsharp" />
+
+</RelativeLayout>
+
+</RelativeLayout>

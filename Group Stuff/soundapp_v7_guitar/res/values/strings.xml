@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, SoundappActivity!</string>
+    <string name="app_name">BandIt</string>
+    <string name="sound1">sound 1</string>
+    <string name="sound2">sound 2</string>
+    <string name="sound3">sound 3</string>
+    <string name="sound4">sound 4</string>
+    <string name="sound5">sound 5</string>
+    <string name="sound6">sound 6</string>
+    <string name="playmusic">Play Music</string>
+    <string name="instrumentlist">Instruments and Sounds</string>
+	<string name="cancel">Cancel</string>
+	<string name="exit">Exit</string>
+	<string name="about">About</string>
+	<string name="aboutText">
+        Created by: Rhys Yu, Harvey Abaya, Jon Nguy, John Jang and Connie Kwan \n\n
+        Disclaimer: This is a non-profit app and the music found here belongs to the musical labels and artists.\n\n
+        Purpose: To complete CS M117 final project and to learn Android programming. \n\n
+        Added features: \n\n   
+        Warning: Media Player was not coded from our group. Problems of force closing when sdcard does not have any mp3 to play.\n\n     
+    </string>
+    <string name="aboutText2">
+        Disclaimer: 
+        The code in this media player were taken from Android Hive and were not created by us.\n\n
+        This is a non-profit app for educational purposes and the music found here belongs to the musical labels and artists.\n\n
+        Added features: popup menu\n\n        
+    </string>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="grey">#AAAAAA</color>
+    <string name="piano">Piano</string>
+    <string name="guitar">Guitar</string>
+    <string name="drums">Drums</string>
+    <string name="misc">Misc</string>
+    <string name="musiclist">Music List</string>
+    <string name="start">Start</string>
+    <string name="soloplay">Solo Play</string>
+    <string name="multiplayer">Multiplayer</string>
+    <string name="instrument">Instrument</string>
+    <string name="sounds">Sounds</string>
+    <string name="A">A</string>
+    <string name="B">B</string>
+    <string name="C">C</string>
+    <string name="D">D</string>
+    <string name="E">E</string>
+    <string name="F">F</string>
+    <string name="G">G</string>
+    <string name="Asharp">Asharp</string>
+    <string name="Csharp">Csharp</string>
+    <string name="Dsharp">Dsharp</string>
+    <string name="Fsharp">Fsharp</string>
+    <string name="Gsharp">Gsharp</string>
+    <string name="mediaplayer">Media Player</string>
+    
+    <!--  BluetoothChat -->
+    <string name="send">Send</string>
+    <string name="not_connected">You are not connected to a device</string>
+    <string name="bt_not_enabled_leaving">Bluetooth was not enabled. Leaving Bluetooth Chat.</string>
+    <string name="title_connecting">connecting...</string>
+    <string name="title_connected_to">connected: </string>
+    <string name="title_not_connected">not connected</string>
+
+    <!--  DeviceListActivity -->
+    <string name="scanning">scanning for devices...</string>
+    <string name="select_device">select a device to connect</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="none_found">No devices found</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="button_scan">Scan for devices</string>
+
+    <!-- Options Menu -->
+    <string name="connect">Connect a device</string>
+    <string name="discoverable">Make discoverable</string>
+</resources>

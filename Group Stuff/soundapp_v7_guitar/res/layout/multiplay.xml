@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white" >
+    
+
+    <!-- start piano layout -->
+	<RelativeLayout
+	    android:id="@+id/piano_layout"
+	    android:orientation="vertical"
+	  	android:layout_width="fill_parent"
+	   	android:layout_height="wrap_content"
+	   	android:visibility="gone">
+	    
+	    <ImageView
+	        android:id="@+id/pianokeybackground"
+	        android:background="@color/white"
+	        android:layout_width="330dp"
+	        android:layout_height="460dp"
+	        android:scaleType="fitXY"
+	        android:screenOrientation="portrait"
+	        android:src="@drawable/pianokeys_portrait" >
+	    </ImageView>
+	    
+	    <Button
+	        android:id="@+id/pianoBkey"
+	        style="@style/pianokeysnormal"
+	        android:layout_marginLeft="220dp"
+	        android:layout_marginTop="50dp"
+	        android:text="@string/B" />
+
+	    <Button
+	        android:id="@+id/pianoAsharpkey"
+	        style="@style/pianokeysharp"
+	        android:layout_marginTop="85dp"
+	        android:text="@string/Asharp" />
+	    
+	    <Button
+	        android:id="@+id/pianoAkey"
+	        style="@style/pianokeysnormal"
+	        android:layout_marginLeft="220dp"
+	        android:layout_marginTop="108dp"
+	        android:text="@string/A" />
+	    
+	    <Button
+	        android:id="@+id/pianoGsharpkey"
+	        style="@style/pianokeysharp"
+	        android:layout_marginTop="150dp"
+	        android:text="@string/Gsharp" />
+	    
+	    <Button
+	        android:id="@+id/pianoGkey"
+	        style="@style/pianokeysnormal"
+	        android:layout_marginLeft="220dp"
+	        android:layout_marginTop="168dp"
+	        android:text="@string/G" />
+	    
+	    <Button
+	        android:id="@+id/pianoFsharpkey"
+	        style="@style/pianokeysharp"
+	        android:layout_marginTop="215dp"
+	        android:text="@string/Fsharp" />
+	    
+	    <Button
+	        android:id="@+id/pianoFkey"
+	        style="@style/pianokeysnormal"
+	        android:layout_marginLeft="220dp"
+	        android:layout_marginTop="225dp"
+	        android:text="@string/F" />
+	    
+	    <Button
+	        android:id="@+id/pianoEkey"
+	        style="@style/pianokeysnormal"
+	        android:layout_marginLeft="220dp"
+	        android:layout_marginTop="283dp"
+	        android:text="@string/E" />
+	    
+	    <Button
+	        android:id="@+id/pianoDsharpkey"
+	        style="@style/pianokeysharp"
+	        android:layout_marginTop="320dp"
+	        android:text="@string/Dsharp" />
+	    
+	    <Button
+	        android:id="@+id/pianoDkey"
+	        style="@style/pianokeysnormal"
+	        android:layout_marginTop="343dp"
+	        android:layout_marginLeft="220dp"
+	        android:text="@string/D" />
+	    
+	    <Button
+	        android:id="@+id/pianoCsharpkey"
+	        style="@style/pianokeysharp"
+	        android:layout_marginTop="388dp"
+	        android:text="@string/Csharp" />
+	    
+	    <Button
+	        android:id="@+id/pianoCkey"
+	        style="@style/pianokeysnormal"
+	        android:layout_marginTop="402dp"
+	        android:layout_marginLeft="220dp"
+	        android:text="@string/C" />
+    
+    </RelativeLayout>
+    <!-- end piano layout -->
+	
+	<!-- start drums layout -->
+	<RelativeLayout 
+	    android:id="@+id/drums_layout"
+	    android:orientation="vertical"
+	  	android:layout_width="fill_parent"
+	   	android:layout_height="wrap_content"
+	   	android:visibility="gone">
+    
+     <ImageView
+        android:id="@+id/drumsetbackground"
+        android:layout_width="320dp"
+        android:layout_height="460dp"
+        android:background="@color/white"
+        android:paddingTop="25dp"
+        android:screenOrientation="portrait"
+        android:src="@drawable/drumsplacement" >
+    </ImageView>
+    
+     
+    <Button
+        android:id="@+id/drums_sn_key"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="157dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"
+        android:background="@android:color/transparent"
+        android:text="   SN   " />
+
+
+    <Button
+        android:id="@+id/drums_hhopen_key"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="170dp"
+        android:textColor="@color/black"
+        android:background="@android:color/transparent"
+        android:text="HH-OPEN" />
+    
+    <Button
+        android:id="@+id/drums_crash_key"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/drums_hhcl_key"
+        android:layout_marginTop="135dp"
+        android:background="@android:color/transparent"
+        android:text="CRASH"
+        android:textColor="@color/black" />
+    
+    <Button
+        android:id="@+id/drums_rim_key"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="170dp"
+        android:layout_marginLeft="185dp"
+        android:textColor="@color/black"
+        android:background="@android:color/transparent"
+        android:text="  RIM  " />
+
+    <Button
+        android:id="@+id/drums_ride_key"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="225dp"
+        android:layout_marginLeft="240dp"
+        android:textColor="@color/black"
+        android:background="@android:color/transparent"
+        android:text="  RIDE  " />
+    
+    <Button
+        android:id="@+id/drums_fl_key"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="185dp"
+        android:layout_marginLeft="118dp"
+        android:background="@android:color/transparent"
+        android:textColor="@color/black"
+        android:text="    FL   " />
+    
+    <Button
+        android:id="@+id/drums_rk1_key"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="245dp"
+        android:layout_marginLeft="65dp"
+        android:textColor="@color/white"
+        android:background="@android:color/transparent"
+        android:text="    RK1  " />
+    
+    <Button
+        android:id="@+id/drums_rk3_key"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="275dp"
+        android:layout_marginLeft="155dp"
+        android:textColor="@color/black"
+        android:background="@android:color/transparent"
+        android:text="   RK3  " />
+    
+    <Button
+        android:id="@+id/drums_hhcl_key"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="245dp"
+        android:textColor="@color/black"
+        android:background="@android:color/transparent"
+        android:text="HH-CL" />
+    
+    <Button
+        android:id="@+id/drums_hhped_key"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="345dp"
+        android:layout_marginLeft="170dp"
+        android:textColor="@color/black"
+        android:background="@android:color/transparent"
+        android:text="HH-PED" />
+    
+    <Button
+        android:id="@+id/drums_kik_key"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="145dp"
+        android:layout_marginTop="225dp"
+        android:background="@android:color/transparent"
+        android:text="  Kik  "
+        android:textColor="@color/black" />
+    
+    </RelativeLayout>
+    <!-- end drums layout -->
+	
+	<!-- start misc layout -->
+	<RelativeLayout 
+	    android:id="@+id/misc_layout"
+	    android:orientation="vertical"
+	  	android:layout_width="fill_parent"
+	   	android:layout_height="wrap_content"
+	   	android:visibility="gone">
+    
+	    <ImageView 
+	        android:src="@drawable/catmusic"
+	        android:background="@color/black"
+	        android:id="@+id/misctonesbackground"
+	        android:layout_height="fill_parent"
+	        android:layout_width="fill_parent"
+	        android:screenOrientation="portrait"
+	        >
+	    </ImageView>
+	
+    </RelativeLayout>
+    <!-- end misc layout -->
+	
+	<ListView android:id="@+id/in"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:stackFromBottom="true"
+        android:transcriptMode="alwaysScroll"
+        android:layout_weight="1"
+        android:visibility="gone"
+    />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        >
+        <EditText android:id="@+id/edit_text_out"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="bottom"
+        />
+        <Button android:id="@+id/button_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/send"
+        />
+    </LinearLayout>
+   
+    <Button
+        android:id="@+id/changesound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="@string/sounds"
+        android:textColor="@color/black" />
+    
+    <Button
+        android:id="@+id/mediaplayer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="95dp"
+        android:text="@string/mediaplayer"
+        android:textColor="@color/black"/>
+
+</RelativeLayout>

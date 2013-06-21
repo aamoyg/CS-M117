@@ -1,0 +1,13 @@
+ADB - Android Debug Bridge
+
+loading into sdcard of Android emulator"
+1. go to /<path where android was downloaded>/android-sdks/platform-tools
+
+eg. in my case it was /Users/rhys/android-sdks/platform-tools
+
+2. ./adb push /<absolute path> /sdcard/
+
+3. to remove file from adb
+./adb shell
+cd sdcard
+rm <filename>

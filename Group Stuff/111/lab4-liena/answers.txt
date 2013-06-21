@@ -1,0 +1,64 @@
+# Fill in your name, student ID, and email address in this file.
+# If you are working in a team, fill out the information for both team 
+# members.
+
+# SUBMIT THE LAB ONLY ONCE (from only one partner). This file will be
+# automatically parsed in order to give both team members credit for the
+# lab.
+
+# You need to fill in the EXERCISE sections describing your solutions
+# for Tasks 1, 2, and 3, as well as write the corresponding code.
+# If you did one or more extra credit problems, indicate which one in the
+# appropriate section below (remove the # sign first). If you have any other
+# information you'd like us to know, please add it at the end of the file.
+
+# Partner 1
+Name: Alex Lien 
+Student ID: 003809895
+Email: alex.lien@ucla.edu
+
+# Partner 2 (if you're working in a team)
+Name: Eric van Loon
+Student ID: 603810706
+Email: hinderlopen@ucla.edu
+
+# EXERCISE 1: What method you used to make your peer download and upload
+#    files in parallel?  (~1-3 sentences)
+We used pthreads to parallelize the download and processes to parallelize the
+uploads.
+
+# EXERCISE 2A: What conditions did you find and fix that would have
+#    triggered a buffer overrun bug?  (~1-3 sentences each)
+We found a buffer overflow bug in the function task_download. If the
+filename is between 252 and 255 then there may be a buffer overflow if there are
+duplicate names.
+
+We found another buffer overlow in the function task_upload. If the get
+request had a filename greater than 255 then there would be an overflow.
+
+# EXERCISE 2B: What other robustness problems did you fix?  (~1-3 sentences
+#    each)
+We added a check in task_upload to make sure only files from the current directory are
+accessed.
+
+We added an extra check for ret == TBUF_END inside read_tracker, where we
+check if the buffer is full.
+
+We added a counter in the while loop of task_download to prevent an infinite
+download. We set a limit 500 transfers.
+
+To handle popular trackers, we created peers while reading the tracker. This
+way we never run out of room while reading from tracker. We can read multiple
+buffer's worth of peers.
+
+# EXERCISE 3: Describe the attacks you implemented for "evil mode".  Why
+#    are they attacks?  (~3-10 sentences each)
+We added a buffer overflow if evil_mode == 1 for osp2p_writef inside task_download function.
+
+We also added an infinite loop if evil_mode == 2 where we keep printing 1111
+forever.
+
+# Extra credit problems
+#Extra credit problem: none
+
+# Add any other information you'd like us to know below this line.
